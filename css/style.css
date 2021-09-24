@@ -70,6 +70,8 @@ body {
 
 .header {
     background: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .header-container {
@@ -77,10 +79,23 @@ body {
     align-items: center;
     }
 
-.header-contact {
+/* .header-contact {
     display: flex;
     align-items: center;
+    margin-left: auto;
+}  */
+
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 } 
+
+.contacts-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 
 .hedaer-nav {
     display: flex;
