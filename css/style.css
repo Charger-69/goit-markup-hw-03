@@ -22,6 +22,8 @@ ul {
 
 img {
     display: block;
+    max-width: 100%, 
+    height: auto;
 }
 
 body {
@@ -79,6 +81,8 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*----------- HEADER------------- */
@@ -202,6 +206,10 @@ body {
     display: flex;
 }
 
+.features-item {
+    width: 270px;
+}
+
 .features-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -221,8 +229,42 @@ body {
     margin-right: 30px;
 }
 
+
+/*----------- About Us------------- */
+
+.about-us-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-us-title {
+    width: 376px;
+}
+
+.about-us-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*----------- Team ------------- */
+
 .team {
     background-color: #F5F4FA;
+}
+
+.team-main-title {
+    width: 264px;
+}
+
+.team-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.team-item:not(:last-child) {
+    margin-right: 30px;
+}
+.team-item {
+    width: 270px;
 }
 
 .team-title {
@@ -230,16 +272,27 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .team-subtitle {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.18px;
+    text-align: center;
 }
+
+.team-item-text {
+    margin-top: 30px;
+}
+
+/*----------- Footer ------------- */
 
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .header-logo-text-2-footer {
@@ -255,11 +308,19 @@ body {
     font-style: unset;
 }
 
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 .footer-link {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71px;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+    margin-bottom: 20px;
 }
 
 .adress-link {
