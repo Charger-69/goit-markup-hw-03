@@ -32,8 +32,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .header-logo {
@@ -41,6 +40,11 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .btn {
@@ -140,8 +144,18 @@ body {
 
 }
 
+/*----------- HERO------------- */
+
 .hero {
     background-color: #2F303A;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 106px;
+    padding-bottom: 106px;
 }
 
 .hero-title {
@@ -151,6 +165,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    width: 696px;
+    text-align: center;
+    margin-bottom: 30px;
+    
 }
 
 .hero-btn {
