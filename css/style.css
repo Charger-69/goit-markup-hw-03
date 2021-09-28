@@ -282,7 +282,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    margin-top: 30px;
     text-align: center;
 }
 
@@ -292,11 +291,11 @@ body {
     line-height: 1.18;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 30px;
 }
 
 .team-item-text {
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*----------- Footer ------------- */
