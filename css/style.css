@@ -189,6 +189,12 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: #ffffff;
+    border: none;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;
 }
 
 /*----------- Features------------- */
@@ -213,6 +219,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .features-subtitle {
@@ -262,11 +269,13 @@ body {
     display: flex;
     margin-top: 50px;
     margin-left: -30px;
-}
+    }
 
 .team-item {
     flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
+    background-color: #ffffff;
+    /* height: 368px; */
 }
 
 .team-title {
@@ -274,8 +283,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    margin-bottom: 10px;
+    margin-top: 30px;
     text-align: center;
+    
     }
 
 .team-subtitle {
@@ -283,10 +293,13 @@ body {
     font-size: 16px;
     line-height: 1.18px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .team-item-text {
     margin-top: 30px;
+    height: 100%;
+    margin-bottom: 30px;
 }
 
 /*----------- Footer ------------- */
@@ -344,8 +357,7 @@ body {
 
 .filters-btn {
     background: #f5f4fa;
-    width: 145px;
-    height: 38px;
+    padding: 6px 22px;
     border-radius: 4px;
     color: var(--primary-text-color);
     font-weight: 500;
